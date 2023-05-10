@@ -10,7 +10,7 @@ let package = Package(
             targets: ["libnumpy", "libnpymath", "libnpyrandom", "Link", "NumPySupport"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/mshakhtt/Python_iOS.git", .branch("3.8_kivy-ios")),
+        .package(url: "https://github.com/kewlbear/Python-iOS.git",.branch("3.8_kivy-ios")),
     ],
     
     targets: [
